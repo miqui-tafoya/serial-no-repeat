@@ -9,12 +9,14 @@ $(document).on('submit','#dataSend', function(event){
     success:function(data){
       $('#boton').attr('disabled', false);
       if(data.success){
-        $('#elementos').text(data.array);
+        $('#elementos').text('');
+        $.each(data.array, function(index, value){
+          $("#elementos").append(index + " ----> " + value + '<br>');
+        });
         $('#error').text('');
       } else {
         $('#error').text(data.errors);
         $('#elementos').text('');
-        console.log(data.errors);
       }
     }
   })
