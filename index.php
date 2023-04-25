@@ -12,7 +12,7 @@
     <label for="cantidad">¿Cuántos elementos agregar?</label>
     <input id="cant" type="number" name="cantidad">
     <input type="hidden" name="trigger" value="usrinput">
-    <button id="boton" type="submit" name="add-usr">Enviar</button>
+    <button id="boton" type="submit" name="add-usr">Generar</button>
   </form>
   <div class="resultado">
     <div id="error"></div>
