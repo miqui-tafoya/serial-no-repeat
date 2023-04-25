@@ -1,0 +1,23 @@
+#dataSend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#dataSend *{
+  width: 200px;
+  margin: 10px 0;
+  text-align: center;
+}
+#error {
+  color: red;
+}
+.resultado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: dashed grey 1px;
+}
